@@ -17,8 +17,17 @@ namespace iGEM2017
             string b = File.ReadAllText(@"C:\Users\edpkp\Documents\Visual Studio 2015\Projects\iGEM2017\iGEM2017\bin\Debug\Second_Analysis.txt");
             Console.WriteLine("Distance between FILE 1 and FILE 2:" + Damerau_Levenshtein_Alg(a, b));
 
-            Console.WriteLine("Do you wish to view the files? (Debugging)");
-
+            Console.WriteLine("Do you wish to view the files? (Debugging) PRESS Y TO WORK IT ");
+            string zx = Console.ReadLine();
+            if (zx == "Y")
+            {
+                Console.WriteLine("FILE 1 SAYS: \n " + a);
+                Console.WriteLine("FILE 2 SAYS: \n " + b);
+            }
+            else
+            {
+                Console.WriteLine("Yeah, me neither");
+            }
             Console.ReadLine();
         }
 
