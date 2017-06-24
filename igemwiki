@@ -1,0 +1,84 @@
+==University of Nottingham==
+
+<h1>Welcome Page</h1>
+
+<h2> Welcome to this Wiki, and thank you for your attention! We invite you to read everything we have discovered. </h2>
+[[Image:Nottslogo.png|300px|thumb|right|]]
+
+<p>
+<ul>
+<li>Of course, you dont have to have full attention or read everything.</li>
+<li>If you are new to the Nottingham wiki construction team, Wikia or wikis in general, please visit the Vikram/Chris helpline for an outline of some of the main parts of the site and links to pages that show you how to edit pages here. </li>
+</ul> </p>
+
+<h2>The Biological Key</h2>
+<h3>Reasons for its existence </h3>
+<p> 
+<ul> 
+<li> The best idea ever. </li>
+<li> Fully analogue passwords. </li>
+<li>Improved security (No stored data)</li>
+</ul>
+</p>
+<h2>Key idea</h2>
+
+<p>
+<ul>
+<li>Shuffling of metabolite expression levels via Radiation induced or Transposon induced differences. </li>
+<li>Introduce artificial secondary metabolite production, detectable in quantity with mass spectrometer. This is achieved by introduction of multiple plasmids with pathways in.</li>
+<li>Vary the promoter levels of these metabolites to produce an array of bacteria with a unique code which cannot be hacked. </li>
+<li>100s of metabolite types each with many levels of expression. E.g 100 types of metabolite, each with 10 levels of expression. </li>
+<li>Gives 1020  combinations. These combinations cannot be stored or replicated. </li>
+<li>Keys only last a desired amount of time before they must be renewed from a colony of comparison, housed by the organisation. </li>
+<li>Radiation or transposon shuffling induces change in levels of metabolite production, and can be a way to induce automated change in metabolite levels to ensure key redundancy over time .</li> 
+</ul>
+</p>
+
+<h3>Radiation altered plasmid</h3>
+
+[[Image:Nottsplasmidr.png|600px|]]
+[[Image:Nottsplasmidt.png|600px|]]
+
+<h2>Plan</h2>
+Plan here
+<h2>Bacterial Chassis type</h2>
+[[Image:Nottsadvdis.png]]
+<h2>Transposon selection</h2>
+Tn7 Transposon used due to specific target site selection for its transposition, which is impossible in other transposon species, without this modular increases in promoter activity could not be achieved as random insertions would create a gradient rather than step wise expression pattern of proteins.
+[[Image:Nottstranspose.png|300px|thumb|right|]]
+<h2>Promoter selection</h2>
+Promoters are selected to have a greatly varied production of products. These will then allow easy recognition of each level 0-3
+<h2>Bacterial Key Transport</h2>
+There is a need for a transport mechanism for the key. This presents problems depennding on the bacteria used.
+*In Ecoli Our key transport system would need to:
+Keep our colonies alive for a few days 
+Potentially could freeze. Freezing is one of the best ways to store bacteria.
+The lower the temperature the longer the culture will retain viable cells
+PROBLEM: Ice can damage cells due to localised accumulation of salt, it can also rupture membranes.
+SOLUTION: Use glycerol as a cryoprotectant 
+Inhibit conjugation/recombination/genome shuffling
+Synthetic fatty acids prevents plasmid-mediated horizontal gene transfer (M.Getino, Et al,. 2015)
+Act against the induction of mutations
+*In Clostridium, spore storage could be used, however this presents the problem of spore awakening and time taken for product synthesis
+<h2>Key comparison Environment</h2>
+A method by which the comparative environment for mother and daughter key colonies can be compared in alternative environments
+<h2>Possible Metabolites</h2>
+<h4>LIMS1</h4>
+*Limonene synthase 1 from Citrus limon (accession AF514287). Synthesised by Geneart. Limonene synthase converts farnesyl-diphosphate to (+)-limonene, which is a component of lemon scent. Note: several codons were altered silently to remove several forbidden restriction sites. The N-terminal region (plastid targeting sequence) was removed, removing the first 51 amino acids and replacing codon 52 with the start codon ATG.
+For a diagram of limonene synthesis, and the synthesis of other lemon flavour compounds see Edinburgh Yoghurt Wiki
+
+<h4>SAM:benzoic acid carboxyl methyltransferase</h4> converts benzoic acid to methyl benzoate (floral odor)
+BBa_J45002 encodes SAM benzoic acid carboxyl methyltransferase I derived from BAMT from Antirrhinus majus (snapdragon). BAMT catalyzes the conversion of benzoic acid to methyl benzoate. Methyl benzoate has a floral smell.
+
+*Enzyme is active as a dimer.
+There are two methionine codons at the begnning of the BAMT cDNA. The BAMT resulting from amplification from the second methionine shows a 2.4 times higher specific activity than from the first methionine in protein purified from cell lysate; on the other hand, BAMT purified from E. coli shows no difference in specific activity (from both Met codons). The Km and kcat are the same from both codons in E. coli.
+
+*Inhibition by SAH was competitive with respect to SAM and noncompetitive with respect to benzoic acid. SAM appears to be the first substrate to bind to the enzyme. Methyl benzoate is released first and SAH last.
+BAMT activity may be regulated by the intracellular SAM/SAH concentration ratio rather than benzoic acid availability.
+
+<h4>alcohol acetyltransferase I</h4>
+
+*BBa_J45014 encodes alcohol acetyltransferase I derived from ATF1 from Saccharomyces cerevisiae. ATF1 catalyzes the conversion of isoamyl alcohol to isoamyl acetate. Isoamyl acetate has a banana smell. converts isoamyl alcohol to isoamyl acetate (banana odor)
+
+*[Note that this is not aspartate amino transferase (also called "AATase"), and that "ATF1" also refers to "Activating Transcription Factor 1" in humans (an entirely different protein that is homologous to "Atf1" in mouse).]
+Sequence and Features
