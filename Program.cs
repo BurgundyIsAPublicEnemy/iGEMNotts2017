@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Linq;
 using System.IO;
@@ -8,12 +8,12 @@ namespace iGEM2017
 
     class iGEMProgram2017
     {
-        private const int threshold = 5;
+        private const int threshold = 10;
         public static bool first_file = false;
 
         static void Main(string[] args)
         {
-      
+          //  Console.WriteLine(System.IO.Directory.GetCurrentDirectory());
             File.WriteAllText(@"C:\Users\edpkp\Documents\Visual Studio 2015\Projects\iGEM2017\iGEM2017\bin\Debug\First_Analysis.txt", String.Empty);
             File.WriteAllText(@"C:\Users\edpkp\Documents\Visual Studio 2015\Projects\iGEM2017\iGEM2017\bin\Debug\Second_Analysis.txt", String.Empty);
             string path = @"C:\Users\edpkp\Documents\Visual Studio 2015\Projects\iGEM2017\iGEM2017\bin\Debug\graph1.bmp";
@@ -101,14 +101,14 @@ namespace iGEM2017
             {
                 using (StreamWriter sw = File.AppendText(@"C:\Users\edpkp\Documents\Visual Studio 2015\Projects\iGEM2017\iGEM2017\bin\Debug\First_Analysis.txt"))
                 {
-                    sw.WriteLine(rList[bestHit[2] - 1]);
+                    sw.Write(rList[bestHit[2] - 1]);
                 }
             }
             else
             {
                 using (StreamWriter sw = File.AppendText(@"C:\Users\edpkp\Documents\Visual Studio 2015\Projects\iGEM2017\iGEM2017\bin\Debug\Second_Analysis.txt"))
                 {
-                    sw.WriteLine(rList[bestHit[2] - 1]);
+                    sw.Write(rList[bestHit[2] - 1]);
                 }
             }
 
@@ -117,7 +117,8 @@ namespace iGEM2017
 
         public static void ConsoleWriteImage(Bitmap source)
         {
-            int sMax = 39;
+            //calibration 
+            int sMax = 40;
             decimal percent = Math.Min(decimal.Divide(sMax, source.Width), decimal.Divide(sMax, source.Height));
             Size dSize = new Size((int)(source.Width * percent), (int)(source.Height * percent));
             Bitmap bmpMax = new Bitmap(source, dSize.Width * 2, dSize.Height);
