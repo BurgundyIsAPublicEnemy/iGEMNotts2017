@@ -1,0 +1,74 @@
+import tellurium as te
+# Single gene expressing protein and protein undergoing degradation
+r = te.loada ('''
+      # Reactions: 
+      J1:   -> P; Vm*T^4/(K+T^4)
+      J2: P ->  ; k1*P; 
+
+      # Species initializations: 
+      P = 0;   T = 5; Vm = 10
+      K = 0.5; k1 = 4.5;   
+''')
+
+result = r.simulate(0, 2, 50)
+r.plot (result)
+
+import tellurium as te
+# GFP Protein Intensity relationship with Protein Intensity
+r = te.loada ('''
+      # Reactions: 
+      J1:   -> P; Vm + 4;
+      J2: P ->  ; k1; 
+
+      # Species initializations: 
+      Vm = 10
+      k1 = 4.5;   
+''')
+
+result = r.simulate(0, 2, 50)
+r.plot (result)
+
+import tellurium as te
+# SIGNAL DEPENDENCE MODEL
+r = te.loada ('''
+      # Reactions: 
+      J1:   -> P; (0.01 ) + (S );
+
+      # Species initializations: 
+      S = 4.5;   
+''')
+
+result = r.simulate(0, 2, 50)
+r.plot (result)
+
+import tellurium as te
+# Protein Expression Under Non Inhibited Conditions
+r = te.loada ('''
+    $S1-> $mRNA ; C*p - V*r - L*r 
+    $mRNA -> Protein ; L * r - U*Protein
+
+    # Initialize values
+    p = 0.01; V = 5.0; r = 0.01
+    L = 4; U = 1.7; C = 3.0; mRNA = 0
+''')
+
+result = r.simulate (0, 10, 200)
+r.plot (result, ylabel="Concentration")
+
+//WITH INHIBITED
+import tellurium as te
+# Protein Expression Under Non Inhibited and Inhibited Conditions Conditions -- ALLOWS COMPARISION
+r = te.loada ('''
+    # The $ character is used to indicate that a particular species is FIXED
+    $S1 -> S2; k1*S1
+     S2 -> S3; k2*S2 - k3*S3
+     S3 -> $S4; Vm*S3/((Km + S3) + S)
+
+    # Initialize values
+    S1 = 0.1; S2 = 0; S3 = 0; S4 = 0.0
+    k1 = 0.1; k2 = 4; k3 = 0.04
+    Vm = 5.6; Km = 0.5; S = 0.1;
+''')
+
+result = r.simulate (0, 10, 200)
+r.plot (result)
