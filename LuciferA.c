@@ -5,8 +5,11 @@
 #include <stdbool.h>
 #include <string.h>
 
+//gcc -o LuciferProto LuciferA.c -lm
 #define newline "------------------ \n"
 
+
+// gcc -o LuciferProto LuciferA.c -lm
 struct color_des {
     int red;
     int blue;
@@ -160,10 +163,27 @@ int main(int argc, char *argv[]) {
         printf ("At t minutes =  %d \n", t);
         printf ("|PROTEIN CONCENTRATION: %f    nanograms per microlitre per second|\n", inhibited);
         printf ("|EXP FL AT INTENSITY  : %f                                    RFU|\n", expected_fl);
-        printf ("|EXP FL AT WAVELENGTH : %f                           nanometers|\n", gfp_EM(final_per));
+        printf ("|EXP FL AT WAVELENGTH : %f                             nanometers|\n", gfp_EM(final_per));
+  
+   char sentence[1000];
+   FILE *fptr1;
+
+   fptr1 = fopen("tmp.txt", "a");
+   if(fptr1 == NULL)
+   {
+      printf("Error!");
+      exit(1);
+   }
+   
+sprintf(sentence, "%f %d \n", expected_fl, t);
+   fprintf(fptr1,"%s", sentence);
+   fclose(fptr1);
+
+
         printf(newline);
         fclose(fptr);
     }
+
+system("/home/violet/iGEM_NOTTS/lg");
     return 0;
 }
-
