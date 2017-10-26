@@ -1,6 +1,7 @@
 # iGEMNotts2017: Key.Coli
-
-Welcome to the official Code Base For the iGEM Team of University of Nottingam 
+# Synopsis
+Welcome to the official Code Base For the iGEM Team of University of Nottingam
+Key.Coli is a bacterial password system.
 Please note: ALL code is open source. Code can be altered, used and extracted in any way the user pleases.
 
 ## Getting Started
@@ -25,5 +26,7 @@ All code was designed around a structure as outlined below:
  * In Dev
  * ReadMe.md
  
+ # Installation
  Look at each branches ReadMe for specific instructions on how to install and use the code. 
+ 
  If there are any issues, please contact the gitMaster or raise an issue! 
