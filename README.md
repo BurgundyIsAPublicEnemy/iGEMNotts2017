@@ -7,17 +7,14 @@ Please note: ALL code is open source. Code can be altered, used and extracted in
 All code was designed around a structure as outlined below
 
 $ ./tree-md .
-# Project tree
+# Modelling Tree
 
-.
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
+ * Lucifer Fluorescence Protein Simulator
+ * Tellurium Python Models
+   * Single gene expressing protein and protein undergoing degradation
+   * GFP Protein Intensity relationship with Protein Intensity
+   * Signal Dependence Model
+   * Protein Expression Under Non Inhibited Conditions
+   * Protein Expression Under Non Inhibited and Inhibited Conditions Conditions
+ * Protein Combination Calculator
+ * ReadMe.md
