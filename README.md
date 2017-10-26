@@ -6,8 +6,7 @@ Please note: ALL code is open source. Code can be altered, used and extracted in
 ## Getting Started
 All code was designed around a structure as outlined below
 
-Modelling -----
-              
-```
-pip install tellurium
-```
+Modelling                                                       
+          Tellurium Python Models                               
+                                  Fluorescence Simulator      
+                                                        Combination Calculator
