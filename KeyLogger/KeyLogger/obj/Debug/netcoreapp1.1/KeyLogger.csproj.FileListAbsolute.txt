@@ -1,0 +1,10 @@
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\bin\Debug\netcoreapp1.1\KeyLogger.deps.json
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\bin\Debug\netcoreapp1.1\KeyLogger.runtimeconfig.json
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\bin\Debug\netcoreapp1.1\KeyLogger.runtimeconfig.dev.json
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\bin\Debug\netcoreapp1.1\KeyLogger.dll
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\bin\Debug\netcoreapp1.1\KeyLogger.pdb
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\obj\Debug\netcoreapp1.1\KeyLogger.csprojResolveAssemblyReference.cache
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\obj\Debug\netcoreapp1.1\KeyLogger.csproj.CoreCompileInputs.cache
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\obj\Debug\netcoreapp1.1\KeyLogger.AssemblyInfo.cs
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\obj\Debug\netcoreapp1.1\KeyLogger.dll
+C:\Users\verys\source\repos\KeyLogger\KeyLogger\obj\Debug\netcoreapp1.1\KeyLogger.pdb
