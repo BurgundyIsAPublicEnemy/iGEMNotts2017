@@ -25,10 +25,10 @@ This was developed with the intenton of allowing comparision between two sets of
 Raw Data Comparision, at the current state, is unstable. Please download the source code and manually change the code to support your own file directory.
 
 ```
-LINUX: To compile, in Terminal, navigate to directory with .java files and type: java read_gfp.java
+LINUX: To compile, in Terminal, navigate to directory with .java files and type: java read_data_compare.java
 ```
 ```
-LINUX: To run, in Terminal, navigate to directory with .class files and type: javac read_gfp
+LINUX: To run, in Terminal, navigate to directory with .class files and type: javac read_data_compare
 ```
 
 # Usage
