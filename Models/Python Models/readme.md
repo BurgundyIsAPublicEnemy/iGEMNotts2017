@@ -2,7 +2,8 @@
 --------------
 ## Purpose
 This was developed to test the Ordinary Diffrential Equations by creating visualisations of them.
-Built using data from Farasat et al.(2016) 
+
+These models were all integrated into Lucifer Fluorescence Simulator as each model was used to build a certain component of the simulation. However, due to time constraints, each model couldn't be validated with real world data.
 
 ## Installation 
 Prequisites: You need Tellurium and Python
