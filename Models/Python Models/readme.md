@@ -1,14 +1,14 @@
-## Python Models
+# Python Models
 --------------
-# Purpose
+## Purpose
 This was developed to test the Ordinary Diffrential Equations by creating visualisations of them.
 
-# Installation 
+## Installation 
 Prequisites: You need Tellurium and Python
 
 ```
 LINUX: To install Tellurium, use: http://tellurium.analogmachine.org/
 ```
 
-# Usage
+## Usage
 Run the scripts onto any Python IDE of your choice once Tellurium is loaded and it should work.
