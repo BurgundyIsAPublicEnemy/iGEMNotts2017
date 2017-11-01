@@ -30,3 +30,4 @@ Enter on terminal:
 ```
 Terminal / Command Prompt: ./loader
 ```
+Follow the instructions on executing the program as it will provide the parameters
