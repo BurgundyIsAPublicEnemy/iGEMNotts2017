@@ -6,6 +6,8 @@ This simulation was created combining all the models to help build different com
 It was created to help the wet lab predict how the spectra might look as well as create sample data for the Raw Data and 
 Image Comparision verification.
 
+When creating these models, real world data was integrated we can have accurate representation of how the bacteria would behave in real life. This suggests that when comparing the modelled data to real life data from for our lab data set. there is a strong fit. However, this is not necessarily true for all cases: we simply only had data for the conditions we were using, which suggests that more data would be required for the models to be truly representative of real world data.
+
 ## Installation 
 Simulation was written entirely in C. Currently, stable.
 Navigate to directory in Terminal / Command Prompt. Enter all seperately.
