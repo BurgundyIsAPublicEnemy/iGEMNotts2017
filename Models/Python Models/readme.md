@@ -2,6 +2,7 @@
 --------------
 ## Purpose
 This was developed to test the Ordinary Diffrential Equations by creating visualisations of them.
+Built using data from Farasat et al.(2016) 
 
 ## Installation 
 Prequisites: You need Tellurium and Python
