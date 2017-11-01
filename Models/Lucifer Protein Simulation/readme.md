@@ -1,12 +1,12 @@
 
 ## Lucifer Protein Simulation
 --------------
-Purpose
+#Purpose
 This simulation was created combining all the models to help build different components.
 It was created to help the wet lab predict how the spectra might look as well as create sample data for the Raw Data and 
 Image Comparision verification.
 
-Installation 
+#Installation 
 Simulation was written entirely in C. Currently, stable.
 Navigate to directory in Terminal / Command Prompt. Enter all seperately.
 ```
@@ -25,7 +25,7 @@ Terminal / Command Prompt: gcc 'pkg-config --cflag gtk+-3.0 -o lg Lucifer_Graphe
 Terminal / Command Prompt: gcc -o loader module_loader.c
 ```
 
-Usage
+#Usage
 Enter on terminal:
 ```
 Terminal / Command Prompt: ./loader
